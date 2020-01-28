@@ -1,0 +1,695 @@
+/* Body property space*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI",
+        Arial,
+        sans-serif;
+}
+
+/* Column one styling*/
+#myLinks {
+    margin-left: 10vh;
+}
+
+#myLinks ul li a img {
+    border-radius: 50%;
+}
+
+.icon img {
+    border-radius: 50%;
+    display: none;
+}
+
+.hidden-search {
+    display: none;
+}
+
+#myLinks ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+#myLinks ul li a:hover {
+    background-color: #d3e9f8;
+    padding: 10px 18px;
+    border-radius: 120px;
+}
+
+#myLinks ul li {
+    list-style: none;
+}
+
+.pb {
+    padding-bottom: 25px;
+}
+
+.fa-twitter {
+    color: #1da1f2;
+    font-size: 30px;
+}
+
+#myLinks .pb .home {
+    color: #1da1f2;
+    /* font-size: 30px; */
+}
+
+.fa-hashtag,
+.fa-search,
+.fa-bell,
+.fa-envelope,
+.fa-bookmark,
+.fa-list-alt,
+.fa-chevron-circle-down {
+    padding-right: 20px;
+}
+
+.tweet {
+    border-radius: 120px;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 13px 80px;
+    position: relative;
+    text-align: center;
+    background-color: #1da1f2;
+    border: 1px solid #1da1f2;
+    color: #fff;
+    text-decoration: none;
+    outline-offset: 2px;
+    outline: 2px;
+}
+
+.column-1 #myLinks {
+    display: block;
+}
+
+
+/* Column one space */
+.column-1 {
+    float: left;
+    width: 22.01%;
+    padding: 10px;
+    height: 100vh;
+    border: 1px solid #aaa;
+    border-left: none;
+    border-bottom: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.column-1 .fa {
+    display: none;
+}
+
+/* Ends here */
+
+
+/* Column two space  */
+.column-2 {
+    float: left;
+    width: 43.33%;
+    /* padding: 10px; */
+    height: 150vh;
+    /* border: 1px solid #aaa; */
+    border-bottom: none;
+    position: relative;
+    left: 22%;
+}
+
+.padding-bottom {
+    padding-bottom: 20px;
+}
+
+.span-float-right {
+    float: right;
+}
+
+.content .span-float-left {
+    /* float: left; */
+    /* padding-right: 20vh; */
+    margin-left: 13vh;
+    padding-top: 10px;
+}
+
+.fa-image,
+.fa-address-card,
+.fa-chart-bar,
+.fa-circle,
+.fa-plus-circle {
+    padding-right: 10px;
+}
+
+.border-right {
+    border-right: 1px solid grey;
+    /* padding: 3px 10px; */
+}
+
+header {
+    box-shadow: 0px 1px 2px rgb(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    /* left: 0; */
+    background: #fff;
+    z-index: 1;
+}
+
+.second-header {
+    box-shadow: 0px 1px 0px rgb(0, 0, 0, 0.3);
+    background: #fff;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+#navbar {
+    /* background-color: rgb(250, 250, 250); */
+    /* border-bottom: 1px solid #aaa; */
+    overflow: hidden;
+    /* width: 42vw; */
+    /* padding-left: 40px; */
+}
+
+.tweet-middle {
+    border-radius: 120px;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 6px 12px;
+    position: relative;
+    text-align: center;
+    background-color: #1da1f2;
+    border: 1px solid #1da1f2;
+    color: #fff;
+    text-decoration: none;
+    outline-offset: 2px;
+    outline: 2px;
+    margin-right: 15px;
+}
+
+.fa-smile-beam,
+.fa-image,
+.fa-plus-circle,
+.fa-address-card,
+.fa-chart-bar {
+    font-size: 20px;
+    color: #1da1f2;
+}
+
+.fa-circle {
+    font-size: 18px;
+}
+
+#navbar .home-middle {
+    float: left;
+    color: black;
+    /* text-align: center; */
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22.5px;
+    cursor: pointer;
+}
+
+.fa-star {
+    color: #1da1f2;
+}
+
+#navbar .shift-right {
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbar .shift-right:hover {
+    background-color: #d3e9f8;
+    padding: 10px 18px;
+    border-radius: 120px;
+}
+
+/* .content {
+    padding: 16px;
+} */
+
+.content a img {
+    border-radius: 50%;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+textarea {
+    width: 80.53%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    border: none;
+    /* color: #aab8c2; */
+    outline-style: none;
+}
+
+::placeholder {
+    font-size: 22px;
+}
+
+.small-color {
+    background-color: #e6ecf0;
+    /* box-shadow: 0px 1px 0px rgb(0, 0, 0, 0.3); */
+    height: 11px;
+}
+
+.icon-float {
+    float: right;
+    margin-top: 15px;
+}
+
+.user-circle {
+    margin-left: 12px;
+}
+
+.text {
+    margin-left: 60px;
+}
+
+
+.column-bg-color:hover {
+    background-color: #eff1f3;
+}
+
+.hover:hover {
+    background-color: #eff1f3;
+}
+
+div .image-center {
+    display: flex;
+    justify-content: center;
+    width: 35vw;
+    height: 80vh;
+    margin-left: 60px;
+    border-radius: 20px;
+    margin-top: 2vh;
+}
+
+.below-icon {
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.fa-retweet {
+    margin-left: 8vh;
+    cursor: pointer;
+}
+
+.fa-heart {
+    margin-left: 8vh;
+    cursor: pointer;
+}
+
+.fa-download {
+    margin-left: 8vh;
+    cursor: pointer;
+}
+
+.fa-comment:hover {
+    color: #5a9fe4;
+}
+
+.fa-retweet:hover {
+    color: green;
+}
+
+.fa-heart:hover {
+    color: rgb(238, 80, 106);
+}
+
+.fa-download:hover {
+    color: #5a9fe4;
+}
+
+/* Column three space */
+.column-3 {
+    float: left;
+    width: 34.70%;
+    padding: 10px;
+    height: 230vh;
+    border: 1px solid #aaa;
+    border-bottom: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.search {
+    /* position: relative; */
+    margin: 0 auto;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    /* left: 0; */
+    background: #fff;
+    z-index: 1;
+}
+
+.search input {
+    text-indent: 50px;
+    font-family: "Segoe UI",
+        Arial,
+        sans-serif;
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 10%;
+    font-size: 20px;
+}
+
+input[type=text]:focus {
+    outline-offset: 2px;
+    outline: 5px;
+}
+
+input {
+    width: 450px;
+    padding: 25px;
+    margin: 3px;
+    height: 25px;
+    border-radius: 50px;
+    background: #e6ecf0;
+    border: none;
+}
+
+.bg-color {
+    background: #f5f8fa;
+    margin-top: 25px;
+    border-radius: 25px;
+    width: 88%;
+    margin-left: 30px;
+}
+
+/* .column-3 .bg-color .mt {
+    margin-top: 200px;
+} */
+
+.setting-icon {
+    float: right;
+    margin-right: 20px;
+    color: #1da1f2;
+    font-size: 22px;
+}
+
+.fa-angle-down {
+    margin-right: 20px;
+}
+
+.down-arrow {
+    float: right;
+
+}
+
+.trend p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    padding-top: 10px;
+    border-bottom: 1px solid #d3e9f8;
+    padding-bottom: 15px;
+}
+
+.trending-title {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.show-more {
+    margin-top: 15px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    color: #1da1f2;
+    font-size: 20px;
+}
+
+.wrap-6 a {
+    text-decoration: none;
+}
+
+.trending {
+    margin-left: 20px;
+    border-bottom: 1px solid #d3e9f8;
+    padding-bottom: 15px;
+}
+
+.trended p {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.column-3-image {
+    border-radius: 50%;
+}
+
+.fa-user-circle {
+    font-size: 50px;
+    margin-top: 10px;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
+.abonyi {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.follow {
+    /* display: inline-block; */
+    vertical-align: middle;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.who-to-follow {
+    margin-left: 20px;
+    border-bottom: 1px solid #d3e9f8;
+    padding-bottom: 8px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.shifted {
+    margin-left: 20px;
+    border-bottom: 1px solid #d3e9f8;
+    padding-bottom: 10px;
+}
+
+.handle {
+    color: rgba(0, 0, 0, .54);
+    color: #aab8c2;
+    font-size: 15px;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* #cadbe6 */
+.follow {
+    border-radius: 120px;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    background-color: #f3f7fa;
+    border: 1px solid #1da1f2;
+    color: #1da1f2;
+    text-decoration: none;
+    outline-offset: 2px;
+    outline: 2px;
+    margin-right: 15px;
+}
+
+.fa-certificate {
+    color: #1da1f2;
+}
+
+.footer ul li {
+    list-style: none;
+    display: inline-block;
+    /* padding: 20px 12px 0 12px; */
+    padding-top: 20px;
+    margin-left: 40px;
+    color: rgba(0, 0, 0, .54);
+    color: #aab8c2;
+}
+
+.footer-2 ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 12px;
+    margin-left: 25px;
+    color: rgba(0, 0, 0, .54);
+    color: #aab8c2;
+}
+
+.fa-angle-down {
+    color: rgba(0, 0, 0, .54);
+    color: #aab8c2;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+    .column-2 {
+        width: 84.5%;
+    }
+
+    .column-3 {
+        display: none;
+    }
+
+    .column-1 {
+        width: 15.33%;
+    }
+
+    #myLinks {
+        margin-left: 2vh;
+    }
+
+    .span,
+    .tweet,
+    .fa-hashtag {
+        display: none;
+    }
+
+    .icon img {
+        display: block;
+        background-color: #1da1f2;
+    }
+
+    .hidden-search {
+        display: block;
+        margin-top: -8px;
+    }
+
+    .content a img {
+        display: none;
+    }
+
+    textarea {
+        display: none;
+    }
+
+    .column-1 .logo {
+        display: none;
+    }
+
+    div .image-center {
+        display: flex;
+        justify-content: center;
+        width: 60vw;
+        height: 80vh;
+        margin-left: 50px;
+        border-radius: 20px;
+        margin-top: 2vh;
+    }
+
+    /* .fa-retweet {
+        margin-left: 8vh;
+        cursor: pointer;
+    }
+
+    .fa-heart {
+        margin-left: 8vh;
+        cursor: pointer;
+    }
+
+    .fa-download {
+        margin-left: 8vh;
+        cursor: pointer;
+    } */
+
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 320px) {
+    .column-3 {
+        /* width: 100%; */
+        display: none;
+    }
+
+    .column-2 {
+        width: 83.52%;
+        border: none;
+        /* display: none; */
+    }
+
+    .column-1 {
+        width: 15.52%;
+        border: none;
+        /* display: none; */
+    }
+
+    /* Style navigation menu links */
+    .column-1 a {
+        color: black;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    /* .column-1 .fa {
+        display: block;
+    } */
+    .column-1 .logo {
+        display: block;
+        margin-right: 50px;
+    }
+
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .column-1 #myLinks {
+        display: none;
+    }
+
+    header {
+        box-shadow: none;
+        position: sticky;
+        top: 0px;
+        background: none;
+
+    }
+
+    #navbar .home-middle {
+        float: left;
+        color: black;
+        padding: 25px 30px;
+        font-weight: bold;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .fa-star {
+        color: #1da1f2;
+        margin: 20px 5px;
+        /* font-size: 10px; */
+    }
+}
